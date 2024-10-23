@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.Setting">
+  <grid id="27dc6" binding="optionsControlPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="657" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13422540"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b64f7" binding="optionsMenu" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-802072"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b8153" class="javax.swing.JButton" binding="gamePlay">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6600482"/>
+              <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+              <foreground color="-10211933"/>
+              <text value="GamePlay"/>
+            </properties>
+          </component>
+          <component id="c39b7" class="javax.swing.JButton" binding="settingsButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-802072"/>
+              <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+              <foreground color="-1943565"/>
+              <text value="Settings"/>
+            </properties>
+          </component>
+          <component id="20efd" class="javax.swing.JButton" binding="other">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6771725"/>
+              <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+              <foreground color="-15325816"/>
+              <hideActionText value="false"/>
+              <text value="Other"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="af6bb" binding="panelHolder" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="500" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5049431"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9e9ea" binding="gamePlayPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-6600482"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="99377" class="javax.swing.JButton" binding="retartLevelButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-10211933"/>
+                  <text value="Retart Level"/>
+                </properties>
+              </component>
+              <component id="244fe" class="javax.swing.JButton" binding="restartGameButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-10211933"/>
+                  <text value="Restart Game "/>
+                </properties>
+              </component>
+              <component id="b2d35" class="javax.swing.JButton" binding="backGamePlay">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-10211933"/>
+                  <hideActionText value="false"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2621a" binding="settingPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-802072"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9116f" class="javax.swing.JButton" binding="backSetting">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-1943565"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+              <component id="9c69f" class="javax.swing.JButton" binding="audioButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-1943565"/>
+                  <text value="Volume Up"/>
+                </properties>
+              </component>
+              <component id="3acba" class="javax.swing.JButton" binding="audioDown">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <enabled value="true"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-1943565"/>
+                  <text value="Volume Down"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="11a90" binding="otherPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-6771725"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d32aa" class="javax.swing.JButton" binding="backOther">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13422540"/>
+                  <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+                  <foreground color="-1252621"/>
+                  <text value="Back "/>
+                </properties>
+              </component>
+              <component id="7ad3b" class="javax.swing.JTextArea" binding="instructions">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-6771725"/>
+                  <foreground color="-15325816"/>
+                  <text value="Instructions&#10;For all levels, you must reach the final platform.&#10;&#10;Level 1: &#10;- You must collect 10 coins.&#10;&#10;Level 2: &#10;- You must collect 10 coins&#10;- A new enemy is introduced - it will chase you once you hit it &#10;You must hit this enemy multiple times before it is killed&#10;&#10;Level 3&#10;You must pass through all the enemies and collect a minimum of 4 coins"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.Menu">
+  <grid id="27dc6" binding="menuPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="638" height="430"/>
+    </constraints>
+    <properties>
+      <background color="-6600482"/>
+      <enabled value="true"/>
+      <foreground color="-10211933"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="line" title="Menu" title-justification="2" title-position="1">
+      <font name="Gill Sans Ultra Bold" size="24" style="0"/>
+      <title-color color="-65315"/>
+      <color color="-10211933"/>
+    </border>
+    <children>
+      <component id="ba722" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10211933"/>
+          <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+          <foreground color="-65315"/>
+          <hideActionText value="false"/>
+          <text value="Start"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="8b12b" class="javax.swing.JButton" binding="quitButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10211933"/>
+          <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+          <foreground color="-65315"/>
+          <text value="Quit"/>
+        </properties>
+      </component>
+      <component id="c56e0" class="javax.swing.JButton" binding="optionsButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10211933"/>
+          <font name="Gill Sans Ultra Bold Condensed" size="16" style="0"/>
+          <foreground color="-65315"/>
+          <text value="Options "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
